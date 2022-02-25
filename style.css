@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap');
+
+
+* {
+    font-family: 'Roboto Slab', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+#leftPane {
+    padding: 20px;
+    flex: 1;
+    background: #fdffcd
+}
+
+#rightPane {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffebbb; 
+}
+
+#rightPane textarea {
+    border: none;
+    outline:  none;
+    color: gray;
+}
+
+#todoList {
+    border-top: 2px dashed rgb(28, 0, 128);
+}
+
+.todoContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.readBtn {
+    width: 50px;
+    height: 18px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(96, 231, 96);
+}
+
+.readBtn:hover {
+    background-color: rgb(0, 255, 0);
+}
+
+.deleteBtn {
+    width: 50px;
+    margin-left: 5px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    background-color: rgb(231, 82, 82);
+}
+
+.deleteBtn:hover {
+    background-color: rgb(218, 11, 11);
+}
